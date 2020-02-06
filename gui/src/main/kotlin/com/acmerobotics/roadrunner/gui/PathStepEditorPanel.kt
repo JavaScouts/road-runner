@@ -133,7 +133,6 @@ class PathStepEditorPanel : JPanel() {
 
             startHeading = startHeadingField.text.toDoubleOrNull()?.toRadians() ?: return@addChangeListener
 
-
             fireUpdate()
         }
 
